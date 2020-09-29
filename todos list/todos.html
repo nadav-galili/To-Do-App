@@ -15,15 +15,16 @@
     <div class="d-flex">
         <ul class="ml-2 mt-2 list-group" id="myList">
         </ul>
-        <div class="ml-5 mt-2 form-group">
-            <label for="formGroupExampleInput">Name</label>
-            <input type="text" class="form-control" id="fname" placeholder="insert your name here...">
-            <label for="exampleFormControlTextarea1">Post</label>
-            <textarea class="form-control" id="postBody" rows="6" placeholder="insert yout post here..."></textarea>
-            <button type="submit" class="mt-2 btn btn-primary" id="myBtn">Submit</button>
+        <div class="ml-5 mt-2 form-group" id="myForm">
+            <label for="formGroupExampleInput">Task</label>
+            <input type="text" class="form-control" id="fname" placeholder="insert your task here...">
+            <label for="formGroupExampleInput" class="mt-2">Task completed?</label><br>
+            <label class="mr-2"><input type="radio" name="tasks" value="Yes" checked>Yes</label>
+            <label><input type="radio" name="tasks" value="No">No</label>
+            <br>
+            <input type="submit" class="mt-2 btn btn-primary" id="myBtn">
         </div>
     </div>
-    <script src="js/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -33,6 +34,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
